@@ -1,0 +1,60 @@
+#基础类型String
+orderId: 1
+id: 4
+#引用类型（List<ParamBean> paramBean,注意如果是集合形式，用 - 符号来表示）
+paramBean:
+    - clazzName: zai
+      methodName: fa
+      age: 18
+      stupid: 1
+    - clazzName: ha
+      methodName: bu
+      age: 27
+#Date类型
+date: 2020-05-28 12:00:00
+#Map类型
+maps: {key1: "value1", key2: "value2"}
+#JSON类型
+jsonObject:
+    su: lei1
+    chou: peng1
+#List<Date>类型
+dates:
+    - 2020-05-28 12:00:00
+    - 2020-05-28 13:00:00
+#List<String>类型
+strs:
+    - haha
+    - pipi
+    - tete
+#JSONArray类型
+jsonArray:
+    - json1: value1
+    - json2: value3
+    - json3: value5
+#如果当前属性是空，可以直接不写，或者写个null
+pa: null
+#枚举类型 （直接写枚举对应的名字）
+bizzEnums: POP
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

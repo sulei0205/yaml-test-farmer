@@ -1,0 +1,118 @@
+##生单参数
+createOrder:
+    bizzEnums: POP
+    chooseTimeDTO:
+                endTime: 2020-12-13 12:12:12
+                periodEnum: JSD
+                startTime: 2020-12-13 12:12:12
+    itemDTOs:
+            - added: false
+              createdTime: 2020-12-13 12:12:12
+              extJson:
+                      food_discount: 1
+                      food_name: 泰国龙眼500g*1盒
+                      unit: 份
+                      quantity: 1
+                      app_food_code: zhangqian-test-jsd-001
+                      price: 0.01
+                      box_num: 1
+                      box_price: 0
+                      sku_id: zhangqian-test-jsd-001
+              hasNightFee: false
+              id: 11111
+              orderId: aaa
+              originFee: 1591
+              payFee: 1592
+              price: 1590
+              productId: 3473
+              productName: aaa
+              productType: 0
+              quantity: 1
+              sku: zhangqian-test-jsd-001
+              unitType: 0
+              updatedTime: 2020-12-13 12:12:12
+    orderDTO:
+            payType: POP
+            bizOrderId: zhangqian201912201713021
+            extJson:
+                    order_status: 2
+                    platform_order_id: zhangqian201912201713021
+                    day_order_sn: 11
+                    platform_subsidies: 0
+                    app_code: 181
+            shopId: 2706160
+            storeRemark: zhangqian
+            userRemark:
+    orderPriceDTOs:
+            - amount: 500
+              feeType: DELIVER_PRICE
+            - amount: 0
+              feeType: PLATFORM_SERVICE_FEE
+            - amount: 2090
+              feeType: ORIGIN_PAY_PRICE
+            - amount: 1
+              feeType: BOX_FEE
+            - amount: 2091
+              feeType: PAY_PRICE
+    addressDTO:
+            address:
+            area: 朝阳区
+            city: 北京市
+            extJson:
+                  city_id: 10000004
+            lat: 29.774491
+            lon: 95.369272
+            province: 北京
+            receiverName: spider man
+            receiverPhone: 1234567890
+            thirdpartyAddress: zhangqian
+    channelDTO:
+            channel: eleme_missfresh
+            version: 1.1
+            platform: POP
+    storeDTO:
+            deliveryType: MRYX
+            stationCode: MRYX|mryx_by
+            warehouseCode: MRYXBJN-BEIYUAN
+            warehouseGroupVer: 0
+            extJson:
+                  store_info:
+                            store_code: 2706160
+                            wma_store_code: MRYXBJN-BEIYUAN
+                            is_third_shipping: 0
+                            created_at: 2020-12-13 12:12:12
+                            station_area: 1000
+                            is_fast_arrive: 0
+                            tms_store_code: MRYX|mryx_by
+                            meituan_store_id: 2706160
+                            updated_at: 2020-12-13 12:12:12
+                            store_name: t_96U6dtSR6E
+                            id: 656
+                            status: true
+                            app_code: 181
+                            city_id: 1000
+    paymentDTOs:
+            - payFee: 2092
+              payTime: 2020-12-13 12:12:12
+              accountType: THIRD
+              remark: 直接支付的订单
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

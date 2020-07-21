@@ -1,0 +1,30 @@
+request:
+  map:
+    api1:
+      - get1
+      - get2
+    api2:
+      - get3
+      - get4
+    api3:
+      - get5
+      - get6
+  a: 3
+  b: 3
+  c: 3
+  d: 3
+  f: 3
+  h: 3
+#基础类型 XX + null情况 （fix）
+
+#引用类型情况 + null情况（基础类型设置成null情况）
+
+#集合情况 （混合场景+嵌套比较深的场景 + null + Date类型 + JSONObject）
+
+#Map的情况 + null情况 + key || value 里面再混合嵌套
+
+#JsonObject情况
+
+#JsonArray情况
+
+#Date类型情况
