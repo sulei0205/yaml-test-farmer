@@ -6,30 +6,30 @@
 经常会忘了设置或者设置错，并且同时开发人员过度依赖测试人员的测试,进入到提测环节的时候，
 其实自己并没有把原来的场景都验证一遍，因此一些痛点，氤氲而生～
 
-用法（四大步骤）
+用法
 
-第一步：
-引入pom文件
+tips:
+1.因为其中pom文件引用的三个jar包是基于源码改动点内容,所以你第一步骤，先将src下的extraJar下的jar包解压放在你本地的.m2的repository下,记得文件路径得和pom文件匹配上
+这三个文件pom地址分别是
 <dependency>
-    <groupId>com.hackathon</groupId>
-    <artifactId>yaml-test</artifactId>
-    <version>1.0.4-SNAPSHOT</version>
-<scope>test</scope>
+    <dependency>
+    <groupId>org.missfresh.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>1.0.0</version>
 </dependency>
-
-tips：注意需要对应的 spring-boot-starter-test版本在2.2.2RELEASE版本
-如果你被父POM管理着，那么你需要独自定义下面的pom(在yaml-test的pom文件上方)
 <dependency>
-    <groupId>org.springframework.boot</groupId>
-    <artifactId>spring-boot-starter-test</artifactId>
-    <version>2.2.2.RELEASE</version>
+    <groupId>org.missfresh.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>1.0.0</version>
 </dependency>
-
-第二步：
-定义一个测试类（类似如下图）
-
-tips：
-注意这两个注解是必填的
-@SpringBootTest(classes = Application.class)
-@ExtendWith(SpringExtension.class)
-
+<dependency>
+    <groupId>org.missfresh.jupiter</groupId>
+    <artifactId>junit-jupiter-params</artifactId>
+    <version>1.0.0</version>
+</dependency>
+2.然后你确定好你本地的pom
+<dependency>文件的内容
+<dependency>都已经
+<dependency>download
+<dependency>下来了
+<dependency>
