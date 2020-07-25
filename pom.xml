@@ -51,6 +51,11 @@
             <artifactId>junit-jupiter-params</artifactId>
             <version>1.0.0</version>
         </dependency>
+        <dependency>
+            <groupId>org.missfresh.platform</groupId>
+            <artifactId>junit-platform-commons</artifactId>
+            <version>1.0.0</version>
+        </dependency>
 
         <!-- 读取yml文件 -->
         <dependency>
